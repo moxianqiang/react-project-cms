@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  /* 控制子元素沿主轴居中 */
+  justify-content: center;
+  align-items: center;
+}
+
+.username-password {
+  width: 700px;
+  height: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.username-password>p {
+  text-align: center;
+  color: #555;
+  font-size: 25px;
+}
